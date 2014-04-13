@@ -80,7 +80,7 @@ void print_board (char board[10][10], int num_rows, int num_cols)
 /*****************************************************
  * Function: is_invalid_start_pt ()                  *
  * Description: checks if the start point to place a *
- *				ship is occupied                     *
+ *		ship is occupied                     *
  * Return: if the point is invalid or not            *
  *****************************************************/
 
@@ -112,8 +112,8 @@ int is_invalid_start_pt (char board [10][10], int row, int col, int dir, int len
 /*******************************************************
  * Function: randomly_place_ships ()                   *
  * Description: generates a random location to place a *
- *				ship. If the location is occupied then *
- *				place the ship in another location     *
+ *		ship. If the location is occupied then *
+ *		place the ship in another location     *
  *******************************************************/
 
 void randomly_place_ships (char board [10][10], char symbol, int length, int direction,
@@ -155,7 +155,7 @@ void randomly_place_ships (char board [10][10], char symbol, int length, int dir
 /****************************************************
  * Function: manually_place_ships ()                *
  * Description: takes the coordinates from the user *
- *				and place each ship accordingly     *
+ *		and place each ship accordingly     *
  ****************************************************/
 
 void manually_place_ships (char game_board[10][10],char symbol) 
@@ -212,8 +212,8 @@ void manually_place_ships (char game_board[10][10],char symbol)
 /**********************************************************
  * Function: random_shot ()                               *
  * Description: chooses a random location to shoot in the *
- *				board. If the location is already shot    *
- *				then choose another location              *
+ *		board. If the location is already shot    *
+ *		then choose another location              *
  **********************************************************/
 
 void random_shot (char board [10][10], int row_rand, int col_rand, FILE *infile,
@@ -249,7 +249,7 @@ void random_shot (char board [10][10], int row_rand, int col_rand, FILE *infile,
 /******************************************************
  * Function: target_shot ()                           *
  * Description: takes the coordinates of the point to *
- *				shoot from the user.                  *
+ *		shoot from the user.                  *
  ******************************************************/
 
 void target_shot (char board [10][10], int row, int col, FILE *infile,
@@ -288,7 +288,7 @@ void target_shot (char board [10][10], int row, int col, FILE *infile,
 /*****************************************************
  * Function: update_board ()                         *
  * Description: displayes the computer board without *
-				the ships and only the shots.        *
+		the ships and only the shots.        *
  *****************************************************/
 
 void update_board (char board [10][10], char updated_board [10][10], 
