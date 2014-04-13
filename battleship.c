@@ -3,8 +3,8 @@
  * April 8, 2014                                                                   *
  * Programming Assignment 6                                                        *
  * Description: This Program implements a battleship game according to some rules. *
- *		The player plays against a computer. once the game is done. Stats  *
- *		of the game is outputted to a log file.                            *
+ *				The player plays against a computer. once the game is done. Stats  *
+ *				of the game is outputted to a log file.                            *
  ***********************************************************************************/
 
 #include "battleship.h"
